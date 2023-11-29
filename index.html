@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
-    <section class="form_container">
-        <form>
-            <label for="form_name">Enter</label>
-            <input type="text" name="" id="">
-            <input type="submit" value="">
-        </form>
-    </section>
-    
+    <main>
+        <section class="form_container">
+            <form>
+                <label for="form_name">Enter name:</label>
+                <input type="text" name="" id="" placeholder="name" required>
+                <input type="password" placeholder="password">
+                <label for="email">Enter email:</label>
+                <input type="email" placeholder="email" required>
+                <label for="phone_number">Enter phone:</label>
+                <input type="number" placeholder="num" required>
+                <textarea name="form_text" id="" cols="30" rows="10" placeholder="comment"></textarea>
+                <input type="date" min="2023-11-20">
+                <input type="time" min="09:00" max="18:00">
+                <input type="color">
+                <input type="file">
+                <input type="range" name="" id="">
+                <div>
+                    <input type="checkbox" name="tos" id="s" checked>
+                    <label for="s">Term of use</label>
+                </div>
+                <div id="radio_card">
+                    <input type="radio" id="l1" name="radio">
+                    <label for="l1">das</label>
+
+                    <input type="radio" id="l2" name="radio">
+                    <label for="l2">sas</label>
+
+                    <input type="radio" id="l3" name="radio">
+                    <label for="l3">ras</label>
+                </div>
+
+                <select name="" id="">
+                    <option value="1">test1</option>
+                    <option value="1">test2</option>
+                    <option value="1">test3</option>
+                </select>
+
+                <input type="submit" value="Send">
+
+            </form>
+        </section>
+    </main>
+
+
 </body>
+
 </html>
